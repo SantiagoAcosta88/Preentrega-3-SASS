@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio web Santiago Acosta</title>
-    <link rel="shortcut icon" href="./images/Header/logo-santiago-acosta.svg">
+    <link rel="shortcut icon" href="../images/Header/logo-santiago-acosta.svg">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;600;700&display=swap" rel="stylesheet">
@@ -24,7 +24,7 @@
         <nav class="navbar navbar-expand-md">
             <div class="container-xl">
                 <a class="navbar-brand" href="#">
-                    <img class="header__logo" src="./images/Header/logo-SantiAcosta.svg"
+                    <img class="header__logo" src="../images/Header/logo-SantiAcosta.svg"
                         alt="Logo Sitio Web Santiago Acosta">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -36,16 +36,16 @@
 
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link navbar__press-on" href="index.html">Inicio</a>
+                            <a class="nav-link navbar__press-off" href="../index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link navbar__press-off" href="./pages/proyectos.html">Portafolio</a>
+                            <a class="nav-link navbar__press-on" href="proyectos.html">Portafolio</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link navbar__press-off" href="#">Acerca de mi</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link navbar__press-off" href="./pages/experiencia.html">Experiencia</a>
+                            <a class="nav-link navbar__press-off" href="./experiencia.html">Experiencia</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link navbar__press-off" href="#">Contacto</a>
@@ -58,84 +58,92 @@
 
     </header>
 
-    <!-- Fin del header -->
 
     <!-- Inicio del cuerpo contenido -->
 
     <main class="main__content">
-        <section class="container-xl main__container">
+
+        <section class="container-xl container__inicial">
 
             <div class="row">
 
-                <div class="col-md-12 col-lg-6">
-
-                    <div class="main__infopersonal">
-                        <span class="main__inforpersonal-title"> ¡Hola! Soy </span>
-                        <h1>Santiago Acosta.</h1>
-                        <h3>Ssr. UX UI Designer | UX Writer | <br> Desarrollador web | Marketer
-                            digital</h3>
-
-                        <div class="buttons-home">
-                            <a href="#" class="button"> Conoce más de mi </a>
-                            <a href="#" class="text-button"> Descarga mi curriculum
-                                <span class="icon-button"> <img src="./images/Transversales/external-link.svg"
-                                        alt="ícono de enlace externo"> </span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="col-md-12 col-lg-6">
+                <div class="col-md-12 col-lg-5">
 
                     <div class="main__imgpersonal">
-                        <img class="img_person" src="./images/Index - Home/santiago-acosta-inicio.png"
-                            alt="Fotografía de Santiago Acosta con ilustraciones a su alrededor">
+                        <img class="img__person-exp" src="../images/Portafolio/portafolio-ux-ui-web-marketing.png"
+                            alt="Ilustraciones que acompañan el título Proyectos">
                     </div>
                 </div>
+
+                <div class="col-md-12 col-lg-7">
+
+                    <div class="main__info-exp">
+                        <h1>Proyectos realizados</h1>
+
+                        <p class="body-lead-text"> Durante mi trayectoria he realizado diferentes trabajos y proyectos,
+                            algunos corporativos y otros personales, a continuación podrás conocer algunos de los más
+                            recientes: </p>
+                    </div>
+                </div>
+
             </div>
         </section>
 
 
-        <!-- Imagen mobile (configuración de Display "none" a la section anterior al cambiar a mobile) -->
+        <!-- Inicio de las cards de proyectos realizados -->
 
+        <section class="cards-container">
 
-        <section class="container-xl main__container-mobile">
+            <div class="regular__cards-container">
 
-            <div class="row">
+                <div class="regular__card">
+                    <img class="regular__card-img" src="../images/Portafolio/en-apuros.avif" alt="ícono genérico">
+                    <h4 class="regular__card-title">En Apuros | App Mobile</h4>
+                    <p class="regular__card-text"> Aplicación mobile que permite encontrar un experto que ayude a
+                        resolver
+                        problemas en el hogar. Lorem Ipsum Lorem ipsum Lorem. </p>
+                    <div class="buttons">
+                        <a href="#" class="button__card"> Conoce más </a>
 
-                <div class="col-md-12 col-lg-6">
-
-                    <div class="main__imgpersonal">
-                        <img class="img_person" src="./images/Index - Home/santiago-acosta-inicio.png"
-                            alt="Fotografía de Santiago Acosta con ilustraciones a su alrededor">
                     </div>
                 </div>
 
 
-                <div class="col-md-12 col-lg-6">
+                <div class="regular__card">
+                    <img class="regular__card-img"
+                        src="https://images.unsplash.com/photo-1554774853-b415df9eeb92?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3270&q=80"
+                        alt="hombre sentado en un restaurante tiene su celular en las manos">
+                    <h4 class="regular__card-title">Reserva una mesa con RICO</h4>
+                    <p class="regular__card-text"> Aplicación mobile que permite encontrar un experto que ayude a
+                        resolver
+                        problemas en el hogar. Lorem Ipsum Lorem ipsum Lorem. </p>
+                    <div class="buttons">
+                        <a href="#" class="button__card"> Conoce más </a>
 
-                    <div class="main__infopersonal">
-                        <span class="main__inforpersonal-title"> ¡Hola! Soy </span>
-                        <h1>Santiago Acosta.</h1>
-                        <h3>Ssr. UX UI Designer | UX Writer | Desarrollador web | Marketer
-                            digital</h3>
+                    </div>
+                </div>
 
-                        <div class="buttons-home">
-                            <a href="./acerca-de-mi.html" class="button"> Conoce más de mi </a>
-                            <a href="#" class="text-button"> Descarga mi curriculum
-                                <span class="icon-button"> <img src="./images/Transversales/external-link.svg"
-                                        alt="ícono de enlace externo"> </span>
-                            </a>
-                        </div>
+
+                <div class="regular__card">
+                    <img class="regular__card-img"
+                        src="https://images.unsplash.com/photo-1613442368680-a30262ad8b3b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3270&q=80"
+                        alt="celular con aplicación de inversión">
+                    <h4 class="regular__card-title">Gestión PRO Inversiones</h4>
+                    <p class="regular__card-text"> Aplicación mobile que permite encontrar un experto que ayude a
+                        resolver
+                        problemas en el hogar. Lorem Ipsum Lorem ipsum Lorem. </p>
+                    <div class="buttons">
+                        <a href="#" class="button__card"> Conoce más </a>
+
                     </div>
                 </div>
             </div>
+
         </section>
 
     </main>
 
-    <!-- Fin del cuerpo contenido -->
+
 
     <!-- Inicio del footer -->
 
@@ -152,19 +160,19 @@
 
                         <div class="footer__socialmedia-items">
                             <a href="https://www.behance.net/santiagacosta3" target="_blank">
-                                <img class="footer__iconsocialmedia" src="./images/Footer/icono-behance.svg"
+                                <img class="footer__iconsocialmedia" src="../images/Footer/icono-behance.svg"
                                     alt="Ícono de la red social Behance">
                             </a>
                             <a href="https://www.linkedin.com/in/santiacosta88/" target="_blank">
-                                <img class="footer__iconsocialmedia" src="./images/Footer/icono-linkedin.svg"
+                                <img class="footer__iconsocialmedia" src="../images/Footer/icono-linkedin.svg"
                                     alt="Ícono de la red social Linkedin">
                             </a>
                             <a href="https://www.instagram.com/santiacosta88" target="_blank">
-                                <img class="footer__iconsocialmedia" src="./images/Footer/icono-instagram.svg"
+                                <img class="footer__iconsocialmedia" src="../images/Footer/icono-instagram.svg"
                                     alt="Ícono de la red social Instagram">
                             </a>
                             <a href="#">
-                                <img class="footer__iconsocialmedia" src="./images/Footer/icono-mail.svg"
+                                <img class="footer__iconsocialmedia" src="../images/Footer/icono-mail.svg"
                                     alt="Ícono de correo electrónico">
                             </a>
                         </div>
@@ -175,7 +183,7 @@
 
                     <div class="footer__copyright">
 
-                        <img class="footer__img-copyright" src="./images/Footer/icono-c-derechos-reservados.svg"
+                        <img class="footer__img-copyright" src="../images/Footer/icono-c-derechos-reservados.svg"
                             alt="Ícono derechos reservados">
                         <p class="body-paragraph-input">Todos los derechos reservados | 2023</p>
                     </div>
@@ -190,6 +198,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
+
+
 </body>
 
 </html>
