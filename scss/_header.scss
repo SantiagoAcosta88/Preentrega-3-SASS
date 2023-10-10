@@ -1,0 +1,22 @@
+header {
+    height: 88px;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 1px 0px #72727238;
+    background-color: #FFFFFF;
+    z-index: 100;
+
+    .navbar {
+        width: 100%;
+        background-color: #ffffff;
+    }
+    
+    .header__logo {
+        max-width: 160px;
+        max-height: 24px;
+    }
+
+}
+
+
+
