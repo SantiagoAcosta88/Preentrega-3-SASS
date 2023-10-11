@@ -1,19 +1,21 @@
 @media (max-width: 1065px) {
 
-    .img_person {
-        width: 475px;
-        height: 428px;
-    }
-
     .main__imgpersonal {
         display: flex;
         flex-wrap: wrap;
         height: 100%;
         justify-content: center;
+
+        .img_person {
+            max-width: 475px;
+            max-height: 428px;
+        }
+
+        .img__person-exp {
+            max-width: 420px;
+            max-height: 390px;
+        }
     }
 
-    .img__person-exp {
-        width: 420px;
-        height: 390px;
-    }
+
 }

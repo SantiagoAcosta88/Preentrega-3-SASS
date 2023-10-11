@@ -1,3 +1,4 @@
+
 /* recursos */
 
 @import "./utilities/variables";
@@ -11,15 +12,13 @@
 @import "./layout/experiencia";
 @import "./layout/footer";
 
-
 /* media queries */
 
-@import "./mediaqueries/min-width-1399px";
 @import "./mediaqueries/min-width-992px";
-@import "./mediaqueries/max-width-991px";
-@import "./mediaqueries/max-width-1065px";
-@import "./mediaqueries/min-width-768px";
-@import "./mediaqueries/max-width-681px";
 @import "./mediaqueries/min-width-850px";
+@import "./mediaqueries/min-width-768px";
+@import "./mediaqueries/max-width-1065px";
+@import "./mediaqueries/max-width-991px";
 @import "./mediaqueries/max-width-767px";
+@import "./mediaqueries/max-width-681px";
 @import "./mediaqueries/max-width-560px";

@@ -1,15 +1,5 @@
 @media (max-width:767px) {
 
-    header {
-        position: sticky;
-        box-shadow: 0 1px 0px #72727238;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        background-color: #ffffff;
-    }
-
-
     h1 {
         display: flex;
         justify-content: center;
@@ -75,52 +65,123 @@
         line-height: 1.375rem;
     }
 
-
-    .navbar-expand-md {
+    header {
+        position: sticky;
+        box-shadow: 0 1px 0px #72727238;
         display: flex;
+        flex-wrap: wrap;
         align-items: center;
         background-color: #ffffff;
 
+        .navbar-expand-md {
+            display: flex;
+            align-items: center;
+            background-color: #ffffff;
+
+            .navbar-nav {
+                position: top;
+                display: flex;
+                padding: 1rem 0rem;
+                font-size: 1.125rem;
+                font-weight: 300;
+            }
+        }
     }
 
-    .navbar-nav {
-        position: top;
-        display: flex;
-        padding: 1rem 0rem;
-        font-size: 1.125rem;
-        font-weight: 300;
+
+    .main__content {
+        margin: 0.5rem 0;
+
+        .main__container-mobile {
+            padding: 0.5rem 1rem 0rem 1rem;
+
+            .main__imgpersonal {
+                display: flex;
+                flex-wrap: wrap;
+                height: 100%;
+                justify-content: center;
+
+                .img_person {
+                    max-width: 312px;
+                    max-height: 284px;
+                }
+            }
+        }
+
+        .container__inicial {
+            padding: 0.5rem 1rem 0rem 1rem;
+
+            .main__imgpersonal {
+                display: flex;
+                flex-wrap: wrap;
+                height: 100%;
+                justify-content: center;
+
+                .img__person-exp {
+                    max-width: 350px;
+                    max-height: 320px;
+                }
+            }
+
+            .regular__card-title {
+                font-size: 1.375rem;
+                font-weight: 700;
+                margin: 0;
+                text-align: center;
+                width: 100%;
+                padding: 0 1rem 0.5rem 1rem;
+                justify-content: center;
+            }
+
+            .regular__card-text {
+                font-size: 0.938rem;
+                font-weight: 400;
+                line-height: 1.3rem;
+                color: #565656;
+                text-align: center;
+                width: 100%;
+                margin: 0 1rem 0.5rem 1rem;
+            }
+        }
 
     }
 
-    .footer__socialmedia {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-    }
+    .footer {
 
-    .footer__socialmedia-items {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        margin: 1rem 0.25rem;
-    }
+        .footer__socialmedia {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
 
-    .footer__socialmedia p {
-        padding: 2rem 0 0 0;
-    }
+            & p {
+                padding: 1rem 0 0 0 !important;
+            }
 
-    .footer__iconsocialmedia {
-        padding: 0.25rem;
-    }
+            .footer__socialmedia-items {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                margin: 0rem 0.25rem 1rem 0.25rem;
 
-    .footer__copyright {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        margin: 1rem 0.25rem;
+                .footer__iconsocialmedia {
+                    padding: 0.25rem;
+                }
+            }
+        }
+
+        .footer__copyright {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center !important;
+            align-items: center;
+
+            .footer__img-copyright {
+                display: inline-block;
+                padding: 0.5rem;
+            }
+        }
     }
 
 
@@ -128,49 +189,27 @@
         padding: 0.5rem 1rem 0rem 1rem;
     }
 
-    .container__inicial {
-        padding: 0.5rem 1rem 0rem 1rem;
-    }
+    .timeline__content {
 
-    .timeline__container {
-        padding: 2rem 0.5rem 1rem 0.5rem;
-    }
+        .timeline__container {
+            padding: 2rem 0.5rem 1rem 0.5rem;
 
-    .timeline__jobs-bg {
-        padding: 0rem 0.5rem 2.5rem 0.75rem;
-    }
+            .timeline__container-jobs {
+                display: grid;
+                grid-template-columns: 2rem 1fr;
+                margin: auto;
+                margin-top: 1.5rem;
+                margin-bottom: 1rem;
 
-    .timeline__jobs-bg-end {
-        padding: 0rem 0.5rem 1rem 0.75rem;
-    }
+                .timeline__jobs-bg {
+                    padding: 0rem 0.5rem 2.5rem 0.75rem;
+                }
 
-    .timeline__container-jobs {
-        display: grid;
-        grid-template-columns: 2rem 1fr;
-        margin: auto;
-        margin-top: 1.5rem;
-        margin-bottom: 1rem;
-    }
-
-
-    .regular__card-title {
-        font-size: 1.375rem;
-        font-weight: 700;
-        margin: 0;
-        text-align: center;
-        width: 100%;
-        padding: 0 1rem 0.5rem 1rem;
-        justify-content: center;
-    }
-
-    .regular__card-text {
-        font-size: 0.938rem;
-        font-weight: 400;
-        line-height: 1.3rem;
-        color: #565656;
-        text-align: center;
-        width: 100%;
-        margin: 0 1rem 0.5rem 1rem;
+                .timeline__jobs-bg-end {
+                    padding: 0rem 0.5rem 1rem 0.75rem;
+                }
+            }
+        }
     }
 
 }

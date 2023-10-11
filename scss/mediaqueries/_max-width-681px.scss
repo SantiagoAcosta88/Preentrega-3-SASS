@@ -1,37 +1,50 @@
 @media (max-width:681px) {
 
-    .button {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: #292730;
-        background-color: #FCDA69;
-        border-radius: 1rem;
-        font-size: 1rem;
-        font-weight: 400;
-        margin: 1rem;
-        padding: 1rem 1.5rem;
-        text-decoration: none;
+    .main__content {
+        margin: 0.5rem 0;
 
-    }
+        .container__inicial {
 
-    .text-button {
-        display: flex;
-        justify-content: center;
-        font-size: 1rem;
-        font-weight: 400;
-        text-decoration: none;
-        color: #141313;
-        padding: 1rem;
-    }
+            .main__imgpersonal {
+                display: flex;
+                flex-wrap: wrap;
+                height: 100%;
+                justify-content: center;
 
-    .img_person {
-        max-width: 312px;
-        max-height: 284px;
-    }
+                .img__person-exp {
+                    max-width: 350px;
+                    max-height: 320px;
+                }
+            }
+        }
 
-    .img__person-exp {
-        width: 350px;
-        height: 320px;
+        .buttons-home {
+
+            .button {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: #292730;
+                background-color: #FCDA69;
+                border-radius: 1rem;
+                font-size: 1rem;
+                font-weight: 400;
+                margin: 1rem;
+                padding: 1rem 1.5rem;
+                text-decoration: none;
+
+            }
+
+            .text-button {
+                display: flex;
+                justify-content: center;
+                font-size: 1rem;
+                font-weight: 400;
+                text-decoration: none;
+                color: #141313;
+                padding: 1rem;
+            }
+        }
+
     }
 }
