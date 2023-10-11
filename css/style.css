@@ -105,6 +105,83 @@ header .header__logo {
   max-height: 24px;
 }
 
+/* Media queries 
+
+@media (min-width:768px) {
+
+    header {
+        height: 88px;
+        position: sticky;
+        top: 0;
+        box-shadow: 0 1px 0px #72727238;
+        display: flex;
+        align-items: center;
+        background-color: #FFFFFF;
+
+        .navbar-brand {
+            margin: 0 1rem;
+        }
+
+        .navbar-nav {
+            border-color: #3f3f3fb7;
+            border-style: solid;
+            border-radius: 2rem;
+            border-width: 1px;
+            padding: 0 1rem;
+            font-size: 1rem;
+            font-weight: 300;
+
+            .nav-link {
+                color: #000000;
+                padding: 0.25rem 1rem !important;
+                margin: 0.5rem 0rem;
+                border-radius: 2rem;
+            }
+
+            .navbar__press-on {
+                background-color: #8873F0;
+                border-radius: 2rem;
+                color: #ffffff;
+                font-weight: 600;
+            }
+
+            .navbar__press-off:hover {
+                font-weight: 300;
+                border-radius: 2rem;
+                color: #5a4ba6;
+            }
+        }
+    }
+}
+
+
+@media (max-width:767px) {
+
+    header {
+        position: sticky;
+        box-shadow: 0 1px 0px #72727238;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        background-color: #ffffff;
+
+        .navbar-expand-md {
+            display: flex;
+            align-items: center;
+            background-color: #ffffff;
+        }
+
+        .navbar-nav {
+            position: top;
+            display: flex;
+            padding: 1rem 0rem;
+            font-size: 1.125rem;
+            font-weight: 300;
+        }
+    }
+}
+
+*/
 .footer {
   margin: 2rem 0 0 0;
   background-color: #fafafa;
@@ -160,7 +237,7 @@ header .header__logo {
   font-weight: 300;
   color: #141313;
 }
-.main__content .main__container .main__infopersonal .main__infopersonal h3 {
+.main__content .main__container .main__infopersonal h3 {
   padding: 1.5rem 0 1.5rem 0;
   line-height: 40px;
 }
@@ -200,6 +277,131 @@ header .header__logo {
   height: 498px;
 }
 
+/* Media queries 
+
+@media (max-width: 1065px) {
+
+    .main__imgpersonal {
+        display: flex;
+        height: 100%;
+        justify-content: center;
+
+        .img_person {
+            max-width: 475px;
+            max-height: 428px;
+        }
+    }
+}
+
+@media (min-width:992px) {
+
+    .main__container-mobile {
+        display: none;
+    }
+}
+
+
+@media (max-width: 991px) {
+
+    .main__content {
+        margin: 1rem 0;
+
+        .main__container {
+            display: none;
+        }
+
+        .main__container-mobile {
+            padding: 0.5rem 0.5rem;
+
+
+            .main__imgpersonal {
+                display: flex;
+                height: 100%;
+                justify-content: center;
+                margin: 0.5rem;
+
+                .img_person {
+                    max-width: 372px;
+                    max-height: 344px;
+                }
+            }
+
+            .main__infopersonal {
+                display: flex;
+                flex-wrap: wrap;
+                height: 100%;
+                align-content: center;
+                justify-content: center;
+
+                .main__inforpersonal-title {
+                    display: flex;
+                    justify-content: center;
+                    width: 100%;
+                    font-size: 2.5rem;
+                    font-weight: 300;
+                    color: #141313;
+                }
+
+                & h1 {
+                    display: flex;
+                    justify-content: center;
+                    padding: 0 0 1rem 0;
+                    line-height: 2.5rem;
+                    font-size: 2.813rem;
+                    font-weight: 700;
+                    margin: 0;
+                    text-align: center;
+                }
+
+                & h3 {
+                    display: flex;
+                    justify-content: center;
+                    padding: 1rem 0 1.5rem 0;
+                    line-height: 2.25rem;
+                    text-align: center;
+                    font-size: 1.625rem;
+                    font-weight: 300;
+                }
+
+                .buttons-home {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    align-content: center;
+                    align-items: center;
+
+                    .button {
+                        display: flex;
+                        padding: 1rem 1.5rem;
+                        color: #292730;
+                        background-color: #FCDA69;
+                        border-radius: 1rem;
+                        font-size: 1rem;
+                        font-weight: 400;
+                        margin: 1.5rem 2rem 1rem 2rem;
+                        text-decoration: none;
+                    }
+
+                    .text-button {
+                        display: inline-block;
+                        font-size: 1rem;
+                        font-weight: 400;
+                        text-decoration: none;
+                        color: #141313;
+                        padding: 1rem 1.5rem;
+
+                        .icon-button {
+                            margin-left: 0.25rem;
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+*/
 /* Inicio del cuerpo contenido */
 .main__content {
   margin: 2rem 0;
@@ -252,7 +454,7 @@ header .header__logo {
   transition: all 0.25s;
   padding: 0 0 0.5rem 0;
 }
-.main__content .cards-container .regular__cards-container .regular__card .regular__card:hover {
+.main__content .cards-container .regular__cards-container .regular__card:hover {
   transform: translateY(-4px);
   box-shadow: 0px 8px 12px rgba(149, 150, 153, 0.2823529412);
 }
@@ -296,19 +498,76 @@ header .header__logo {
   text-decoration: none;
   padding: 0.8rem 5.5rem;
 }
-.main__content .buttons__cards {
-  display: inline-block;
-  width: 100%;
-  padding: 0 1rem 1rem 1rem;
-}
-.main__content .buttons__cards .text-button {
-  font-size: 1rem;
-  font-weight: 400;
-  text-decoration: none;
-  color: #141313;
-  padding: 0.5 1rem 1rem 4rem;
+
+/* Media queries 
+
+@media (min-width:1399px) {
+
+    .container__inicial {
+        padding: 2rem 4rem;
+    }
 }
 
+
+@media (max-width: 991px) {
+
+    .main__content {
+        margin: 1rem 0;
+
+        .container__inicial {
+            padding: 0.5rem 2rem;
+
+            .main__imgpersonal {
+                display: flex;
+                height: 100%;
+                justify-content: center;
+                margin: 0.5rem;
+
+                .img__person-exp {
+                    max-width: 372px;
+                    max-height: 352px;
+                }
+            }
+
+            .main__info-exp {
+                display: flex;
+                flex-wrap: wrap;
+                height: 100%;
+                align-content: center;
+                padding: 0rem;
+
+                & h1 {
+                    display: flex;
+                    justify-content: center;
+                    padding: 1.5rem 0;
+                    line-height: 2.5rem;
+                    font-size: 2.813rem;
+                    font-weight: 700;
+                    margin: 0;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width:681px) {
+
+    .main__imgpersonal {
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        margin: 0.5rem;
+
+        .img__person-exp {
+            max-width: 350px;
+            max-height: 320px;
+        }
+    }
+}
+
+*/
 /* Inicio del cuerpo contenido */
 .main__content {
   margin: 2rem 0;
@@ -318,7 +577,12 @@ header .header__logo {
 .main__content .container__inicial {
   padding: 2rem 2rem;
 }
-.main__content .container__inicial .img__person-exp {
+.main__content .container__inicial .main__imgpersonal {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+}
+.main__content .container__inicial .main__imgpersonal .img__person-exp {
   width: 420px;
   height: 390px;
 }
@@ -327,7 +591,7 @@ header .header__logo {
   flex-wrap: wrap;
   height: 100%;
   align-content: center;
-  padding: 0 2rem;
+  padding: 0 2rem 0 1rem;
 }
 .main__content .timeline__content {
   margin: 1.5rem 0;
@@ -411,5 +675,59 @@ header .header__logo {
   width: 100%;
   height: 2.5rem;
 }
+
+/* Media queries 
+
+@media (min-width:1399px) {
+
+    .container__inicial {
+        padding: 2rem 4rem;
+    }
+}
+
+
+@media (max-width: 991px) {
+
+    .main__content {
+        margin: 1rem 0;
+
+        .container__inicial {
+            padding: 0.5rem 2rem;
+
+            .main__imgpersonal {
+                display: flex;
+                height: 100%;
+                justify-content: center;
+                margin: 0.5rem;
+
+                .img__person-exp {
+                    max-width: 372px;
+                    max-height: 352px;
+                }
+            }
+
+            .main__info-exp {
+                display: flex;
+                flex-wrap: wrap;
+                height: 100%;
+                align-content: center;
+                padding: 0rem;
+
+                & h1 {
+                    display: flex;
+                    justify-content: center;
+                    padding: 1.5rem 0;
+                    line-height: 2.5rem;
+                    font-size: 2.813rem;
+                    font-weight: 700;
+                    margin: 0;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+*/
 
 /*# sourceMappingURL=style.css.map */

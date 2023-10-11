@@ -1,0 +1,31 @@
+@media (max-width:560px) {
+
+
+    .timeline__line {
+        position: relative;
+        background: #FCDA69;
+        width: 0.125rem;
+        margin-bottom: 0.5rem;
+        left: 50%;
+        top: 0.25rem;
+    }
+
+    .timeline__circle {
+        position: absolute;
+        top: 0rem;
+        left: 50%;
+        transform: translate(-50%);
+        width: 1rem;
+        height: 1rem;
+        background-color: #FCDA69;
+        border-radius: 50%;
+    }
+
+    .main__info-exp {
+        display: flex;
+        flex-wrap: wrap;
+        height: 100%;
+        align-content: center;
+        padding: 0rem;
+    }
+}
