@@ -1,9 +1,32 @@
 /* Inicio de Mis habilidades y fortalezas */
 
+.buttons-main {
+    width: 100%;
+    display: flex;
+
+    .button-content {
+        display: flex;
+        padding: 0.75rem 1.5rem;
+        color: #292730;
+        background-color: #FCDA69;
+        border-radius: 0.75rem;
+        font-size: 1rem;
+        font-weight: 400;
+        margin: 1.5rem 0 0 0;
+        text-decoration: none;
+    }
+}
+
+
+.body-lead-text span {
+    font-weight: 600;
+    color: $colorTextoBold;
+}
+
 .container__bg {
     background-color: $colorFondoClaro;
     padding: 1.5rem 0;
-    margin: 1rem 0;
+    margin: 2rem 0;
 
     .main__container-dk-mb {
         padding: 2rem 2rem;
@@ -54,6 +77,37 @@
             }
         }
     }
+}
 
-    
+.education__container {
+    padding: 2rem 2rem;
+
+    .education__title {
+        margin: 1rem 0 0 0;
+
+    }
+
+    .education__subtitle {
+        display: flex;
+        margin: 1rem 0 2rem 0;
+
+        .title__university-study {
+            padding: 0.5rem 1rem;
+        }
+    }
+
+    .education__university-container {
+        max-width: 1038px;
+        margin: 0 auto;
+
+        .education__career-container {
+            max-width: 330px;
+            margin-bottom: 1.5rem;
+
+            .career__name {
+                padding-bottom: 0.5rem;
+            }
+
+        }
+    }
 }

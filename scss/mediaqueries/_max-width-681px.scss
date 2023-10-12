@@ -16,6 +16,24 @@
                     max-height: 320px;
                 }
             }
+
+            .buttons-main {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+            
+                .button-content {
+                    display: flex;
+                    padding: 0.75rem 1.5rem;
+                    color: #292730;
+                    background-color: #FCDA69;
+                    border-radius: 0.75rem;
+                    font-size: 1rem;
+                    font-weight: 400;
+                    margin-top: 1.5rem;
+                    text-decoration: none;
+                }
+            }
         }
 
         .buttons-home {

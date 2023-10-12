@@ -88,5 +88,19 @@ p {
     line-height: 1.375rem;
 }
 
+.lead__text-cards {
+    font-size: $textoBody;
+    font-weight: 400;
+    margin: 0;
+    line-height: 1.438rem;
+    color: $colorParrafos;
+    padding: 0 0 0.5rem 0;
+
+    .body-lead-cards span {
+        font-weight: 600;
+        color: $colorTextoBold;
+    }
+}
+
 
 
