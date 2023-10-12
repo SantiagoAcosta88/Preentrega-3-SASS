@@ -1,0 +1,59 @@
+/* Inicio de Mis habilidades y fortalezas */
+
+.container__bg {
+    background-color: $colorFondoClaro;
+    padding: 1.5rem 0;
+    margin: 1rem 0;
+
+    .main__container-dk-mb {
+        padding: 2rem 2rem;
+
+        .main__info-section {
+            display: flex;
+            flex-wrap: wrap;
+            height: 100%;
+            align-content: center;
+        }
+
+        .small__cards-container-iconsmall {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 1.5rem;
+            margin: 1.5rem auto;
+            max-width: 800px;
+
+            .small__card-iconsmall {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                text-align: center;
+                align-content: center;
+                width: 8rem;
+                height: 8rem;
+                border-radius: 12px;
+                color: #292730;
+                background-color: #ffffff;
+                box-shadow: 0px 1.3px 3px #9596998a;
+                padding: 1rem 0.75rem 1rem;
+
+                .small__card-img-icon {
+                    width: 3rem;
+                    height: 3rem;
+                    margin-bottom: 0.5rem;
+                }
+
+                .small__card-text {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 100%;
+                    height: 2.5rem;
+                }
+            }
+        }
+    }
+
+    
+}
