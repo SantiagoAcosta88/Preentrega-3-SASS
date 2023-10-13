@@ -30,68 +30,90 @@
             height: 100%;
             align-content: center;
             justify-content: center;
+
+            & h1 {
+                display: flex;
+                justify-content: center;
+                padding: 0 0 1rem 0;
+                line-height: 2.5rem;
+                font-size: $tituloH1Mobile;
+                color: $colorTitulos;
+                font-weight: 700;
+                margin: 0;
+                text-align: center;
+            }
+
+            & h3 {
+                display: flex;
+                justify-content: center;
+                padding: 1rem 0 1.5rem 0;
+                line-height: 2.25rem;
+                text-align: center;
+                font-size: $tituloH3Mobile;
+                color: $colorTitulos;
+                font-weight: 300;
+            }
+
+            .main__inforpersonal-title {
+                display: flex;
+                justify-content: center;
+                width: 100%;
+                font-size: $tituloH1Mobile;
+                font-weight: 300;
+                color: $colorTitulos;
+
+            }
         }
 
 
-        .main__inforpersonal-title {
-            display: flex;
-            justify-content: center;
-            width: 100%;
-            font-size: 2.5rem;
-            font-weight: 300;
-            color: #141313;
-
-        }
-
-        .main__info-exp h1 {
-            display: flex;
-            justify-content: center;
-            padding: 1.5rem 0;
-            line-height: 2.5rem;
-            font-size: 2.813rem;
-            font-weight: 700;
-            margin: 0;
-            text-align: center;
-        }
+        .container__inicial {
+            padding: 0.5rem 2rem;
 
 
-        .main__infopersonal h1 {
-            display: flex;
-            justify-content: center;
-            padding: 0 0 1rem 0;
-            line-height: 2.5rem;
-            font-size: 2.813rem;
-            font-weight: 700;
-            margin: 0;
-            text-align: center;
-        }
+            .main__imgpersonal {
+                display: flex;
+                height: 100%;
+                justify-content: center;
+                margin: 0.5rem;
 
-        .main__infopersonal h3 {
-            display: flex;
-            justify-content: center;
-            padding: 1rem 0 1.5rem 0;
-            line-height: 2.25rem;
-            text-align: center;
-            font-size: 1.625rem;
-            font-weight: 300;
-        }
+                .img__person-exp {
+                    max-width: 372px;
+                    max-height: 352px;
+                }
+            }
+
+            .main__info-exp {
+                display: flex;
+                flex-wrap: wrap;
+                height: 100%;
+                align-content: center;
+                padding: 0rem;
+
+                & h1 {
+                    display: flex;
+                    justify-content: center;
+                    padding: 1.5rem 0;
+                    line-height: 2.5rem;
+                    font-size: $tituloH1Mobile;
+                    color: $colorTitulos;
+                    font-weight: 700;
+                    margin: 0;
+                    text-align: center;
+                }
+
+            }
 
 
-        .main__imgpersonal {
-            display: flex;
-            height: 100%;
-            justify-content: center;
-            margin: 0.5rem;
         }
 
 
         .button {
             display: inline-block;
             padding: 1rem 1.5rem;
-            color: #292730;
-            background-color: #FCDA69;
+            color: $colorTitulos;
+            background-color: $colorPrincipal;
             border-radius: 1rem;
-            font-size: 1rem;
+            font-size: $textoBoton;
             font-weight: 400;
             margin: 2rem 1.5rem;
             text-decoration: none;
@@ -99,10 +121,10 @@
 
         .text-button {
             display: inline-block;
-            font-size: 1rem;
+            font-size: $textoBoton;
             font-weight: 400;
             text-decoration: none;
-            color: #141313;
+            color: $colorTitulos;
             padding: 0.5rem;
 
         }
@@ -115,10 +137,10 @@
             .button-content {
                 display: flex;
                 padding: 0.75rem 1.5rem;
-                color: #292730;
-                background-color: #FCDA69;
+                color: $colorTitulos;
+                background-color: $colorPrincipal;
                 border-radius: 0.75rem;
-                font-size: 1rem;
+                font-size: $textoBoton;
                 font-weight: 400;
                 margin: 1.5rem 0 0 0;
                 text-decoration: none;
@@ -127,25 +149,6 @@
 
         .main__container-dk-mb {
             padding: 0.5rem 2rem;
-        }
-
-        .container__inicial {
-            padding: 0.5rem 2rem;
-        }
-
-
-
-        .img__person-exp {
-            max-width: 372px;
-            max-height: 352px;
-        }
-
-        .main__info-exp {
-            display: flex;
-            flex-wrap: wrap;
-            height: 100%;
-            align-content: center;
-            padding: 0rem;
         }
 
         .container__bg {
