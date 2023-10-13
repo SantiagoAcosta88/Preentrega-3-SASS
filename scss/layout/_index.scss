@@ -12,23 +12,23 @@
 
             .main__inforpersonal-title {
                 width: 100%;
-                font-size: 3.125rem;
+                font-size: $tituloH1;
                 font-weight: 300;
-                color: #141313;
+                color: $colorTitulos;
             }
 
             & h3 {
                 padding: 1.5rem 0 1.5rem 0;
-                line-height: 40px;
+                line-height: 2.5rem;
             }
 
             .button {
                 display: inline-block;
                 padding: 1rem 1.5rem;
-                color: #292730;
-                background-color: #FCDA69;
+                color: $colorTitulos;
+                background-color: $colorPrincipal;
                 border-radius: 1rem;
-                font-size: 1rem;
+                font-size: $textoBoton;
                 font-weight: 400;
                 margin-right: 1.5rem;
                 margin-top: 2rem;
@@ -37,10 +37,10 @@
 
             .text-button {
                 display: inline-block;
-                font-size: 1rem;
+                font-size: $textoBoton;
                 font-weight: 400;
                 text-decoration: none;
-                color: #141313;
+                color: $colorTitulos;
                 padding: 0.5rem;
             }
 

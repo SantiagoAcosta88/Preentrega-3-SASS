@@ -1,8 +1,8 @@
 /* recursos */
 /* Colores */
+/* Color de contenedores */
 /* Titulos */
 /* Parrafos */
-/* Color de contenedores */
 * {
   font-family: "Barlow", sans-serif;
   box-sizing: border-box;
@@ -16,7 +16,7 @@ body {
 
 /* Estilos para textos */
 h1 {
-  font-size: 3.375rem;
+  font-size: 3.125rem;
   font-weight: 700;
   margin: 0;
   padding: 0 0 1.5rem 0;
@@ -70,13 +70,14 @@ p {
   padding: 0 0 1rem 0;
 }
 .body-lead-text .body-lead-text span {
+  font-size: 1.063rem;
   font-weight: 600;
-  color: #2a2a2a;
+  color: #565656;
 }
 
 .body-lead-text-card {
   font-size: 0.938rem;
-  font-weight: 400;
+  font-weight: 300;
   margin: 0;
   line-height: 1.125rem;
   color: #565656;
@@ -90,7 +91,7 @@ p {
 }
 
 .lead__text-cards {
-  font-size: 1.063rem;
+  font-size: 0.938rem;
   font-weight: 400;
   margin: 0;
   line-height: 1.438rem;
@@ -99,7 +100,7 @@ p {
 }
 .lead__text-cards .body-lead-cards span {
   font-weight: 600;
-  color: #2a2a2a;
+  color: #565656;
 }
 
 /* paginas y contenido */
@@ -115,7 +116,7 @@ header {
 }
 header .navbar {
   width: 100%;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
 }
 header .header__logo {
   max-width: 160px;
@@ -138,11 +139,11 @@ header .header__logo {
   width: 100%;
   font-size: 3.125rem;
   font-weight: 300;
-  color: #141313;
+  color: #292730;
 }
 .main__content .main__container .main__infopersonal h3 {
   padding: 1.5rem 0 1.5rem 0;
-  line-height: 40px;
+  line-height: 2.5rem;
 }
 .main__content .main__container .main__infopersonal .button {
   display: inline-block;
@@ -161,7 +162,7 @@ header .header__logo {
   font-size: 1rem;
   font-weight: 400;
   text-decoration: none;
-  color: #141313;
+  color: #292730;
   padding: 0.5rem;
 }
 .main__content .main__container .main__infopersonal .icon-button {
@@ -226,7 +227,7 @@ header .header__logo {
   max-height: 443px;
   border-radius: 8px;
   color: #292730;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   box-shadow: 0px 1.3px 3px rgba(149, 150, 153, 0.5411764706);
   overflow: hidden;
   transition: all 0.25s;
@@ -247,8 +248,9 @@ header .header__logo {
   margin-bottom: 0.5rem;
 }
 .main__content .cards-container .regular__cards-container .regular__card .regular__card-title {
-  font-size: 1.375rem;
+  font-size: 1.25rem;
   font-weight: 700;
+  color: #292730;
   margin: 0;
   text-align: center;
   width: 100%;
@@ -270,7 +272,7 @@ header .header__logo {
 .main__content .cards-container .regular__cards-container .regular__card .buttons .button__card {
   color: #292730;
   background-color: #FCDA69;
-  border-radius: 8px;
+  border-radius: 0.5rem;
   font-size: 1rem;
   font-weight: 400;
   text-decoration: none;
@@ -366,9 +368,9 @@ header .header__logo {
   align-content: space-between;
   width: 8rem;
   height: 8rem;
-  border-radius: 12px;
+  border-radius: 0.75rem;
   color: #292730;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   box-shadow: 0px 1.3px 3px rgba(149, 150, 153, 0.5411764706);
   padding: 0.5rem 1rem 1rem 1rem;
 }
@@ -403,14 +405,15 @@ header .header__logo {
 }
 
 .body-lead-text span {
+  font-size: 1.063rem;
   font-weight: 600;
-  color: #2a2a2a;
+  color: #565656;
 }
 
 .container__bg {
   background-color: #FBFBFB;
   padding: 1.5rem 0;
-  margin: 2rem 0;
+  margin: 2rem 0 1rem 0;
 }
 .container__bg .main__container-dk-mb {
   padding: 2rem 2rem;
@@ -440,7 +443,7 @@ header .header__logo {
   height: 8rem;
   border-radius: 12px;
   color: #292730;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   box-shadow: 0px 1.3px 3px rgba(149, 150, 153, 0.5411764706);
   padding: 1rem 0.75rem 1rem;
 }
@@ -980,6 +983,9 @@ header .header__logo {
     text-decoration: none;
     color: #141313;
     padding: 1rem;
+  }
+  .main__content .buttons-home .text-button .icon-button {
+    padding-left: 0.25rem;
   }
 }
 @media (max-width: 560px) {

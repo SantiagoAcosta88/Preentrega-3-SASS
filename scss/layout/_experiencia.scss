@@ -31,7 +31,7 @@
 
     .timeline__content {
         margin: 1.5rem 0;
-        background-color: #FBFBFB;
+        background-color: $colorContenedorSecundario;
 
         .timeline__container {
             padding: 2.5rem 2rem;
@@ -46,7 +46,7 @@
 
                 .timeline__line {
                     position: relative;
-                    background: #FCDA69;
+                    background: $colorPrincipal;
                     width: 0.25rem;
                     margin-bottom: 0.5rem;
                     left: 50%;
@@ -58,7 +58,7 @@
                         transform: translate(-50%);
                         width: 1.5rem;
                         height: 1.5rem;
-                        background-color: #FCDA69;
+                        background-color: $colorPrincipal;
                         border-radius: 50%;
                     }
                 }
@@ -104,9 +104,9 @@
                 align-content: space-between;
                 width: 8rem;
                 height: 8rem;
-                border-radius: 12px;
-                color: #292730;
-                background-color: #ffffff;
+                border-radius: 0.75rem;
+                color: $colorTitulos;
+                background-color: $colorContenedorPrincipal;
                 box-shadow: 0px 1.3px 3px #9596998a;
                 padding: 0.5rem 1rem 1rem 1rem;
 

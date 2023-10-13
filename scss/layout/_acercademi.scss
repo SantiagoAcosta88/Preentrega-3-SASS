@@ -7,10 +7,10 @@
     .button-content {
         display: flex;
         padding: 0.75rem 1.5rem;
-        color: #292730;
-        background-color: #FCDA69;
+        color: $colorTitulos;
+        background-color: $colorPrincipal;
         border-radius: 0.75rem;
-        font-size: 1rem;
+        font-size: $textoBoton;
         font-weight: 400;
         margin: 1.5rem 0 0 0;
         text-decoration: none;
@@ -19,6 +19,7 @@
 
 
 .body-lead-text span {
+    font-size: $textoBodyLead;
     font-weight: 600;
     color: $colorTextoBold;
 }
@@ -26,7 +27,7 @@
 .container__bg {
     background-color: $colorFondoClaro;
     padding: 1.5rem 0;
-    margin: 2rem 0;
+    margin: 2rem 0 1rem 0;
 
     .main__container-dk-mb {
         padding: 2rem 2rem;
@@ -56,8 +57,8 @@
                 width: 8rem;
                 height: 8rem;
                 border-radius: 12px;
-                color: #292730;
-                background-color: #ffffff;
+                color: $colorTitulos;
+                background-color: $colorContenedorPrincipal;
                 box-shadow: 0px 1.3px 3px #9596998a;
                 padding: 1rem 0.75rem 1rem;
 

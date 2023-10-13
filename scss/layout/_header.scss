@@ -3,14 +3,14 @@ header {
     position: sticky;
     top: 0;
     box-shadow: 0 1px 0px #72727238;
-    background-color: #FFFFFF;
+    background-color: $colorContenedorPrincipal;
     display: flex;
     align-items: center;
     z-index: 100;
 
     .navbar {
         width: 100%;
-        background-color: #ffffff;
+        background-color: $colorContenedorPrincipal;
     }
 
     .header__logo {

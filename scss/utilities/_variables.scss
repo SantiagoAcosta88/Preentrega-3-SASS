@@ -4,25 +4,43 @@
 $colorPrincipal: #FCDA69;
 $colorTitulos: #292730;
 $colorParrafos: #565656;
-$colorTextoBold: #2a2a2a;
+$colorTextoBold: #565656;
 $colorSecundario: #8873F0;
 $colorTerciario: #FAA6BD;
 $colorFondoClaro: #FBFBFB;
+$colorSombras: #72727238;
 
-/* Titulos */
-
-$tituloH1Escritorio: 3.375rem;
-$tituloH2Escritorio: 2.5rem;
-$tituloH3Escritorio: 2rem;
-$tituloH4Escritorio: 1.563rem;
-$tituloH5Escritorio: 1.25rem;
-
-/* Parrafos */
-
-$textoBody: 1.063rem;
-$textoInput: 0.938rem;
 
 /* Color de contenedores */
 
 $colorContenedorPrincipal: #FFFFFF;
 $colorContenedorSecundario: #FBFBFB;
+$colorContenedorTerciario: #fafafa;
+
+
+/* Titulos */
+
+$tituloH1: 3.125rem;
+$tituloH2: 2.5rem;
+$tituloH3: 2rem;
+$tituloH4: 1.563rem;
+$tituloH5: 1.25rem;
+
+$tituloH1Mobile: 2.5rem;
+$tituloH2Mobile: 1.875rem;
+$tituloH3Mobile: 1.625rem;
+$tituloH4Mobile: 1.375rem;
+$tituloH5Mobile: 1.125rem;
+
+
+/* Parrafos */
+
+$textoBodyLead: 1.063rem;
+$textoBody: 0.938rem;
+$textoInput: 0.938rem;
+$textoBoton: 1rem;
+
+$textoBodyLeadMobile: 0.938rem;
+$textoBodyMobile: 0.813rem;
+$textoInputMobile: 0.813rem;
+$textoBotonMobile: 0.938rem;

@@ -17,7 +17,7 @@
 
         .timeline__content {
             margin: 1.5rem 0;
-            background-color: #FBFBFB;
+            background-color: $colorContenedorSecundario;
 
             .timeline__container {
                 padding: 2rem 0.5rem 1rem 0.5rem;
@@ -31,7 +31,7 @@
 
                     .timeline__line {
                         position: relative;
-                        background: #FCDA69;
+                        background: $colorPrincipal;
                         width: 0.125rem;
                         margin-bottom: 0.5rem;
                         left: 50%;
@@ -44,7 +44,7 @@
                             transform: translate(-50%);
                             width: 1rem;
                             height: 1rem;
-                            background-color: #FCDA69;
+                            background-color: $colorPrincipal;
                             border-radius: 50%;
                         }
                     }
