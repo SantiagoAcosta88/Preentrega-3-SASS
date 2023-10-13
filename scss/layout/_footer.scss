@@ -1,3 +1,7 @@
+
+@import "../utilities/mixins";
+
+
 .footer {
     margin: 2rem 0 0 0;
     background-color: $colorContenedorTerciario;
@@ -6,20 +10,14 @@
         padding: 2rem 2rem;
 
         .footer__socialmedia {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: flex-start;
-            align-items: center;
+            @include flex(row , wrap , flex-start , center , center);
 
             & p {
                 padding: 1rem 0.5rem 1rem 0;
             }
 
             .footer__socialmedia-items {
-                display: flex;
-                flex-direction: row;
-                justify-content: center;
-                align-items: center;
+                @include flex(row , wrap , center , center , center);
                 margin: 1rem 0.25rem;
 
                 .footer__iconsocialmedia {

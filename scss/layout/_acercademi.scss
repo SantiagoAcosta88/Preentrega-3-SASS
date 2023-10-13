@@ -1,5 +1,7 @@
 /* Inicio de Mis habilidades y fortalezas */
 
+@import "../utilities/mixins";
+
 .buttons-main {
     width: 100%;
     display: flex;
@@ -40,20 +42,14 @@
         }
 
         .small__cards-container-iconsmall {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            align-items: center;
+            @include flex(row , wrap , center , center , center);
             gap: 1.5rem;
             margin: 1.5rem auto;
             max-width: 800px;
 
             .small__card-iconsmall {
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: center;
+                @include flex(row , wrap , center , center , center); 
                 text-align: center;
-                align-content: center;
                 width: 8rem;
                 height: 8rem;
                 border-radius: 12px;
@@ -69,9 +65,7 @@
                 }
 
                 .small__card-text {
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
+                    @include flex(row , wrap , center , center , center);
                     width: 100%;
                     height: 2.5rem;
                 }

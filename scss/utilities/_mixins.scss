@@ -1,0 +1,20 @@
+@mixin flex($direction , $wrap , $justify , $alignitems , $aligncontent ) {
+    display: flex;
+    flex-direction: $direction;
+    flex-wrap: $wrap;
+    justify-content: $justify;
+    align-items: $alignitems;
+    align-content: $aligncontent;
+}
+
+@mixin img-principal( $width , $height) {
+    width: $width;
+    height: $height;
+}
+
+@mixin img-principal-max( $width , $height) {
+    max-width: $width;
+    max-height: $height;
+}
+
+
