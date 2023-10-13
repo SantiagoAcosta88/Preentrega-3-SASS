@@ -2,6 +2,7 @@
 /* recursos */
 
 @import "./utilities/variables";
+@import "./utilities/mixins";
 @import "./layout/generales";
 
 /* paginas y contenido */
@@ -11,6 +12,7 @@
 @import "./layout/proyectos";
 @import "./layout/experiencia";
 @import "./layout/acercademi";
+@import "./layout/contacto";
 @import "./layout/footer";
 
 /* media queries */

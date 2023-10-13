@@ -1,0 +1,59 @@
+
+@import "../utilities/mixins";
+
+
+.main__content-form {
+    margin: 1.5rem 0rem 0rem 0rem;
+
+    .container__inicial {
+        padding: 2rem 2rem;
+
+        .container__title-form {
+            text-align: center;
+
+            .title__form {
+                padding: 1rem;
+                text-align: center;
+                line-height: 3rem;
+            }
+
+        }
+
+        .form__info {
+            display: flex;
+            justify-content: space-between;
+            margin: 1rem auto;
+            max-width: 800px;
+            padding: 0.5rem 0.5rem 0rem 0.5rem;
+
+            .text-label {
+                margin-top: 1rem;
+            }
+        }
+
+        .button__container {
+
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        
+            .button-form {
+                display: flex;
+                padding: 0.75rem 3rem;
+                color: $colorTitulos;
+                background-color: $colorPrincipal;
+                border-radius: 0.75rem;
+                border-width: 0rem;
+                font-size: $textoBoton;
+                font-weight: 400;
+                margin: 1.5rem 0 0 0;
+                text-decoration: none;
+            }
+        
+        
+        }
+    }
+}
+
+
+

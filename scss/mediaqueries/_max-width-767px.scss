@@ -130,8 +130,8 @@
             }
         }
 
-        
-        .cards-container{
+
+        .cards-container {
 
             .regular__cards-container {
 
@@ -148,7 +148,7 @@
                         padding: 0 1rem 0.5rem 1rem;
                         justify-content: center;
                     }
-            
+
                     .regular__card-text {
                         font-size: $textoBody;
                         font-weight: 400;
@@ -165,31 +165,35 @@
         }
     }
 
+    .main__content-form {
+        margin: 0rem;
+    }
+
     .footer {
 
         .footer__container {
 
             .footer__socialmedia {
-                @include flex(column , wrap , center , center , center);
+                @include flex(column, wrap, center, center, center);
                 text-align: center;
-    
+
                 & p {
                     padding: 1rem 0;
                 }
-    
+
                 .footer__socialmedia-items {
-                    @include flex(row , nowrap , center , center , center);
+                    @include flex(row, nowrap, center, center, center);
                     margin: 0rem 0.25rem 1rem 0.25rem;
-    
+
                     .footer__iconsocialmedia {
                         padding: 0.25rem;
                     }
                 }
             }
-    
+
             .footer__copyright {
-                @include flex(row , wrap , center , center , center);
-    
+                @include flex(row, wrap, center, center, center);
+
                 .footer__img-copyright {
                     display: inline-block;
                     padding: 0.5rem;
