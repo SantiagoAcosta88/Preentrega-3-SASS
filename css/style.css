@@ -20,7 +20,7 @@ h1 {
   font-weight: 700;
   margin: 0;
   padding: 0 0 1.5rem 0;
-  color: #292730;
+  color: #5341AC;
   width: 100%;
 }
 
@@ -28,7 +28,7 @@ h2 {
   font-size: 2.5rem;
   font-weight: 700;
   margin: 0;
-  color: #292730;
+  color: #2D274D;
   padding-bottom: 1.5rem;
   width: 100%;
 }
@@ -37,7 +37,7 @@ h3 {
   font-size: 2rem;
   font-weight: 300;
   margin: 0;
-  color: #292730;
+  color: #2D274D;
   width: 100%;
 }
 
@@ -45,20 +45,20 @@ h4 {
   font-size: 1.563rem;
   font-weight: 700;
   margin: 0;
-  color: #292730;
+  color: #5341AC;
   padding-bottom: 1rem;
 }
 
 h5 {
   font-size: 1.25rem;
   font-weight: 600;
-  color: #292730;
+  color: #2D274D;
   margin: 0;
 }
 
 p {
   margin: 0;
-  color: #565656;
+  color: #2D274D;
 }
 
 .body-lead-text {
@@ -66,13 +66,13 @@ p {
   font-weight: 400;
   margin: 0;
   line-height: 1.438rem;
-  color: #565656;
+  color: #2D274D;
   padding: 0 0 1rem 0;
 }
 .body-lead-text .body-lead-text span {
   font-size: 1.063rem;
   font-weight: 600;
-  color: #565656;
+  color: #252041;
 }
 
 .body-lead-text-card {
@@ -80,7 +80,7 @@ p {
   font-weight: 300;
   margin: 0;
   line-height: 1.125rem;
-  color: #565656;
+  color: #2D274D;
 }
 
 .body-paragraph-input {
@@ -95,12 +95,12 @@ p {
   font-weight: 400;
   margin: 0;
   line-height: 1.438rem;
-  color: #565656;
+  color: #2D274D;
   padding: 0 0 0.5rem 0;
 }
 .lead__text-cards .body-lead-cards span {
   font-weight: 600;
-  color: #565656;
+  color: #252041;
 }
 
 /* paginas y contenido */
@@ -139,7 +139,7 @@ header .header__logo {
   width: 100%;
   font-size: 3.125rem;
   font-weight: 300;
-  color: #292730;
+  color: #2D274D;
 }
 .main__content .main__container .main__infopersonal h3 {
   padding: 1.5rem 0 1.5rem 0;
@@ -148,7 +148,7 @@ header .header__logo {
 .main__content .main__container .main__infopersonal .button {
   display: inline-block;
   padding: 1rem 1.5rem;
-  color: #292730;
+  color: #2D274D;
   background-color: #FCDA69;
   border-radius: 1rem;
   font-size: 1rem;
@@ -162,7 +162,7 @@ header .header__logo {
   font-size: 1rem;
   font-weight: 400;
   text-decoration: none;
-  color: #292730;
+  color: #2D274D;
   padding: 0.5rem;
 }
 .main__content .main__container .main__infopersonal .icon-button {
@@ -236,7 +236,7 @@ header .header__logo {
   max-width: 370px;
   max-height: 443px;
   border-radius: 8px;
-  color: #292730;
+  color: #2D274D;
   background-color: #FFFFFF;
   box-shadow: 0px 1.3px 3px rgba(149, 150, 153, 0.5411764706);
   overflow: hidden;
@@ -260,7 +260,7 @@ header .header__logo {
 .main__content .cards-container .regular__cards-container .regular__card .regular__card-title {
   font-size: 1.25rem;
   font-weight: 700;
-  color: #292730;
+  color: #2D274D;
   margin: 0;
   text-align: center;
   width: 100%;
@@ -270,7 +270,7 @@ header .header__logo {
   font-size: 0.938rem;
   font-weight: 400;
   line-height: 1.3rem;
-  color: #565656;
+  color: #2D274D;
   text-align: center;
   width: 100%;
   margin: 0 1rem 0.5rem 1rem;
@@ -280,7 +280,7 @@ header .header__logo {
   margin: 1rem;
 }
 .main__content .cards-container .regular__cards-container .regular__card .buttons .button__card {
-  color: #292730;
+  color: #2D274D;
   background-color: #FCDA69;
   border-radius: 0.5rem;
   font-size: 1rem;
@@ -386,15 +386,15 @@ header .header__logo {
   width: 8rem;
   height: 8rem;
   border-radius: 0.75rem;
-  color: #292730;
+  color: #2D274D;
   background-color: #FFFFFF;
   box-shadow: 0px 1.3px 3px rgba(149, 150, 153, 0.5411764706);
-  padding: 0.5rem 1rem 1rem 1rem;
+  padding: 1rem 0.75rem;
 }
 .main__content .main__container-dk-mb .small__cards-container .small__card .small__card-img {
-  width: 3.625rem;
-  height: 3.625rem;
-  margin-bottom: 0.5rem;
+  max-width: 3.5rem;
+  height: 3rem;
+  margin: 0.5rem 0rem 0.5rem 0rem;
 }
 .main__content .main__container-dk-mb .small__cards-container .small__card .small__card-text {
   display: flex;
@@ -415,7 +415,7 @@ header .header__logo {
 .buttons-main .button-content {
   display: flex;
   padding: 0.75rem 1.5rem;
-  color: #292730;
+  color: #2D274D;
   background-color: #FCDA69;
   border-radius: 0.75rem;
   font-size: 1rem;
@@ -427,7 +427,7 @@ header .header__logo {
 .body-lead-text span {
   font-size: 1.063rem;
   font-weight: 600;
-  color: #565656;
+  color: #252041;
 }
 
 .container__bg {
@@ -466,10 +466,10 @@ header .header__logo {
   width: 8rem;
   height: 8rem;
   border-radius: 12px;
-  color: #292730;
+  color: #2D274D;
   background-color: #FFFFFF;
   box-shadow: 0px 1.3px 3px rgba(149, 150, 153, 0.5411764706);
-  padding: 1rem 0.75rem 1rem;
+  padding: 1rem 0.75rem;
 }
 .container__bg .main__container-dk-mb .small__cards-container-iconsmall .small__card-iconsmall .small__card-img-icon {
   width: 3rem;
@@ -544,7 +544,7 @@ header .header__logo {
 .main__content-form .container__inicial .button__container .button-form {
   display: flex;
   padding: 0.75rem 3rem;
-  color: #292730;
+  color: #2D274D;
   background-color: #FCDA69;
   border-radius: 0.75rem;
   border-width: 0rem;
@@ -624,7 +624,7 @@ header .header__logo {
     font-weight: 300;
   }
   header .navbar-nav .nav-link {
-    color: #292730;
+    color: #252041;
     padding: 0.25rem 1rem !important;
     margin: 0.5rem 0rem;
     border-radius: 2rem;
@@ -668,7 +668,7 @@ header .header__logo {
     font-weight: 300;
   }
   header .navbar .navbar-nav .nav-link {
-    color: #292730;
+    color: #252041;
     padding: 0.25rem 1rem !important;
     margin: 0.5rem 0rem;
     border-radius: 2rem;
@@ -734,7 +734,7 @@ header .header__logo {
     padding: 0 0 1rem 0;
     line-height: 2.5rem;
     font-size: 2.5rem;
-    color: #292730;
+    color: #5341AC;
     font-weight: 700;
     margin: 0;
     text-align: center;
@@ -746,7 +746,7 @@ header .header__logo {
     line-height: 2.25rem;
     text-align: center;
     font-size: 1.625rem;
-    color: #292730;
+    color: #2D274D;
     font-weight: 300;
   }
   .main__content .main__infopersonal .main__inforpersonal-title {
@@ -755,7 +755,7 @@ header .header__logo {
     width: 100%;
     font-size: 2.5rem;
     font-weight: 300;
-    color: #292730;
+    color: #2D274D;
   }
   .main__content .container__inicial {
     padding: 0.5rem 2rem;
@@ -783,7 +783,7 @@ header .header__logo {
     padding: 1.5rem 0;
     line-height: 2.5rem;
     font-size: 2.5rem;
-    color: #292730;
+    color: #5341AC;
     font-weight: 700;
     margin: 0;
     text-align: center;
@@ -791,7 +791,7 @@ header .header__logo {
   .main__content .button {
     display: inline-block;
     padding: 1rem 1.5rem;
-    color: #292730;
+    color: #2D274D;
     background-color: #FCDA69;
     border-radius: 1rem;
     font-size: 1rem;
@@ -804,7 +804,7 @@ header .header__logo {
     font-size: 1rem;
     font-weight: 400;
     text-decoration: none;
-    color: #292730;
+    color: #2D274D;
     padding: 0.5rem;
   }
   .main__content .buttons-main {
@@ -815,7 +815,7 @@ header .header__logo {
   .main__content .buttons-main .button-content {
     display: flex;
     padding: 0.75rem 1.5rem;
-    color: #292730;
+    color: #2D274D;
     background-color: #FCDA69;
     border-radius: 0.75rem;
     font-size: 1rem;
@@ -842,7 +842,7 @@ header .header__logo {
     padding: 0 0 1rem 0;
     line-height: 0rem;
     font-size: 2.5rem;
-    color: #292730;
+    color: #2D274D;
     font-weight: 700;
     margin: 0;
     text-align: center;
@@ -851,7 +851,7 @@ header .header__logo {
     display: flex;
     padding: 0 0 1rem 0;
     font-size: 2rem;
-    color: #292730;
+    color: #2D274D;
     font-weight: 700;
     margin: 0;
   }
@@ -861,14 +861,14 @@ header .header__logo {
     padding: 1rem 0 1.5rem 0;
     line-height: 2.25rem;
     font-size: 1.625rem;
-    color: #292730;
+    color: #2D274D;
     font-weight: 300;
   }
   h4 {
     display: flex;
     padding: 0 0 1rem 0;
     font-size: 1.375rem;
-    color: #292730;
+    color: #5341AC;
     font-weight: 600;
   }
   .body-lead-text {
@@ -876,24 +876,24 @@ header .header__logo {
     font-weight: 400;
     margin: 0;
     line-height: 1.438rem;
-    color: #565656;
+    color: #2D274D;
     padding: 0 0 1rem 0;
   }
   .body-lead-text span {
     font-size: 0.938rem;
     font-weight: 600;
-    color: #565656;
+    color: #2D274D;
   }
   .body-lead-text-card {
     font-size: 0.938rem;
     font-weight: 400;
     margin: 0;
     line-height: 1.438rem;
-    color: #565656;
+    color: #2D274D;
   }
   .body-paragraph-input {
     font-size: 0.813rem;
-    color: #565656;
+    color: #2D274D;
     font-weight: 400;
     margin: 0;
     line-height: 1.375rem;
@@ -950,7 +950,7 @@ header .header__logo {
   .main__content .cards-container .regular__cards-container .regular__card .regular__card-title {
     display: flex;
     font-size: 1.375rem;
-    color: #292730;
+    color: #2D274D;
     font-weight: 700;
     margin: 0;
     text-align: center;
@@ -962,7 +962,7 @@ header .header__logo {
     font-size: 0.938rem;
     font-weight: 400;
     line-height: 1.3rem;
-    color: #565656;
+    color: #2D274D;
     text-align: center;
     width: 100%;
     margin: 0 1rem 0.5rem 1rem;
@@ -1048,7 +1048,7 @@ header .header__logo {
   .main__content .container__inicial .buttons-main .button-content {
     display: flex;
     padding: 0.75rem 1.5rem;
-    color: #292730;
+    color: #2D274D;
     background-color: #FCDA69;
     border-radius: 0.75rem;
     font-size: 1rem;
@@ -1060,7 +1060,7 @@ header .header__logo {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #292730;
+    color: #2D274D;
     background-color: #FCDA69;
     border-radius: 1rem;
     font-size: 1rem;
@@ -1075,7 +1075,7 @@ header .header__logo {
     font-size: 1rem;
     font-weight: 400;
     text-decoration: none;
-    color: #292730;
+    color: #2D274D;
     padding: 1rem;
   }
   .main__content .buttons-home .text-button .icon-button {
