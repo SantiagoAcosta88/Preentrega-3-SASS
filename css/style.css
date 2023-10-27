@@ -525,6 +525,7 @@ header .header__logo {
   padding: 1rem;
   text-align: center;
   line-height: 3rem;
+  color: #5341AC;
 }
 .main__content-form .container__inicial .form__info {
   display: flex;
@@ -842,7 +843,7 @@ header .header__logo {
     padding: 0 0 1rem 0;
     line-height: 0rem;
     font-size: 2.5rem;
-    color: #2D274D;
+    color: #5341AC;
     font-weight: 700;
     margin: 0;
     text-align: center;
